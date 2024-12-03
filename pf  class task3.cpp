@@ -47,6 +47,7 @@
  // cout<<"Total Bill $:"<<total_bill;
  // return 0;
  // }
+
  //ATM Machice
  //#include <iostream>
  //using namespace std;
@@ -73,8 +74,7 @@
  //                cin >> amount;
  //                if (amount <= balance) {
  //                    balance -= amount;
- //                    cout << "Withdrawal successful. New balance: $" << balance << 
-endl;
+ //                    cout << "Withdrawal successful. New balance: $" << balance << endl;
  //                } else {
  //                    cout << "Insufficient balance.";
  //                }
@@ -95,6 +95,7 @@ endl;
  //
  //    return 0;
  //}
+
     //Even and Odd
  //#include <iostream>
  //using namespace std;
@@ -109,7 +110,7 @@ endl;
  //            break;
  //        }
  //
- if (num % 2 == 0) {
+ //if (num % 2 == 0) {
  //            evenCount++;
  //        } else {
 //            oddCount++;
@@ -120,6 +121,7 @@ endl;
  //
  //    return 0;
  //}
+
  //Simple Calculator
  //#include <iostream>
  //using namespace std;
@@ -148,15 +150,13 @@ endl;
  //                cout << "Enter two numbers: ";
  //                cin >> num1 >> num2;
  //                result = num1 - num2;
- //                cout << "Result: " << num1 << " - " << num2 << " = " << result << 
-       endl;
+ //                cout << "Result: " << num1 << " - " << num2 << " = " << result <<   endl;
  //                break;
  //            case 3:
  //                cout << "Enter two numbers: ";
  //                cin >> num1 >> num2;
  //                result = num1 * num2;
- //                cout << "Result: " << num1 << " * " << num2 << " = " << result << 
-endl;
+ //                cout << "Result: " << num1 << " * " << num2 << " = " << result << endl;
  //                break;
  //            case 4:
  //                cout << "Enter two numbers: ";
@@ -177,7 +177,8 @@ endl;
  //    } while (choice != 5);
  //
  //    return 0;
- //}
+ //} 
+
  //Password Checker
  //#include <iostream>
  //using namespace std;
@@ -186,8 +187,7 @@ endl;
  //    int attempts=3;
  //
  //    for (int i = 0; i < attempts; i++) {
- //        cout << "Enter password (Attempt " << i + 1 << " of " << attempts << 
-"):";
+ //        cout << "Enter password (Attempt " << i + 1 << " of " << attempts << "):";
  //        cin >> userPassword;
  //
  //        if (userPassword == Password) {
@@ -205,6 +205,7 @@ endl;
  //    return 0;
  //}
  //
+
  //Grade Calculator
  //#include <iostream>
  //using namespace std;
@@ -241,8 +242,7 @@ endl;
  //            cout << "The student's grade is: D" << endl;
  //        }
  //
- //        cout << "Do you want to calculate the grade for another student? (Y/N): 
-";
+ //        cout << "Do you want to calculate the grade for another student? (Y/N): ";
  //        cin >> choice;
  //
  //    } while (choice == 'Y' || choice == 'y'); 
@@ -250,6 +250,7 @@ endl;
  //    cout << "Thank You" << endl;
  //    return 0;
  //}
+
  //Number Divisor
  //#include <iostream>
  //using namespace std;
@@ -281,6 +282,7 @@ endl;
 //
  //    return 0;
  //}
+
 //Reverse number pattern
  //#include <iostream>
  //using namespace std;
@@ -309,6 +311,7 @@ endl;
  //
  //    return 0;
  //}
+
  //Square and cube table
  //#include <iostream>
  //#include <iomanip> 
